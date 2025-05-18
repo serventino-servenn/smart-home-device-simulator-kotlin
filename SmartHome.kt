@@ -126,14 +126,14 @@ class SmartHome(
         if(smartTvDevice.deviceStatus == "on"){
             smartTvDevice.nextChannel()
         }else{
-            println("Attempt to change tv channel failed because tv is off")
+            println("Attempt to change to next tv channel failed because tv is off")
         }
     }
     fun changeTvChannelToPrevious(){
         if(smartTvDevice.deviceStatus == "on"){
             smartTvDevice.previousChannel()
         }else{
-            println("Attempt to change tv channel failed because tv is off")
+            println("Attempt to change to previous tv channel failed because tv is off")
         }
     }
     fun printSmartTvInfo(){
