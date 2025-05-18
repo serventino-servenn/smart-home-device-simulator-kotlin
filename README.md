@@ -7,4 +7,4 @@ This project is a solution to the "Classes and Objects" challenge from the Andro
 - Add printDeviceInfo() function to the SmartDevice class
 - Add decreaseVolume() and previousChannel() functions to the SmartTVDevice class
 - Add decreaseBrightness() function in the SmartLightDevice class
-- implement decreaseTvVolume() changeTvChannelToPrevious() decreaseLightBrightness() 
+- implement decreaseTvVolume() changeTvChannelToPrevious() decreaseLightBrightness() in the SmartHome class
